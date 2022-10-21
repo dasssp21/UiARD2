@@ -48,7 +48,7 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="excel" sap:VirtualizedContainerService.HintSize="400,379.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="excel" sap:VirtualizedContainerService.HintSize="400,267.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -56,6 +56,5 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" TransactionItem="{x:Null}" DisplayName="Get Transaction Item" sap:VirtualizedContainerService.HintSize="337.6,32" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="Q1" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="337.6,72" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Added Get item" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="337.6,72" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Test Branch" />
   </Sequence>
 </Activity>
